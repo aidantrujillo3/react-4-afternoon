@@ -32,7 +32,7 @@ export default class Student extends Component {
         <h3>Email: {this.state.studentInfo.email}</h3>
 
         
-          <button onClick={this.props.history.goBack}>Back</button>
+        <button onClick={this.props.history.goBack}>Back</button>
         
       </div>
     )
